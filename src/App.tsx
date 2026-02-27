@@ -1,19 +1,20 @@
-import { useState } from "react"
-import "./App.css"
-import reactLogo from "./assets/react.svg"
-import viteLogo from "/vite.svg"
+import { useState } from "react";
+import "./App.css";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
 
 function App() {
-  const [count, setCount] = useState(0)
-  const a: number = 1
-  const unused = 2
+  const b: number = 2;
+  const [count, setCount] = useState(0);
+  const a: number = 1;
+  const unused = 2;
   if (a == 1) {
-    console.log("a is 1")
+    console.log("a is 1");
   }
   const obj = {
     a: 1,
     b: 2,
-  }
+  };
 
   return (
     <>
@@ -34,7 +35,7 @@ function App() {
       </div>
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
