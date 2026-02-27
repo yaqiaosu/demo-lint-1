@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
   const a: number = 1;
   const unused = 2;
-  if (a === 1) {
+  if (a == 1) {
     console.log('a is 1');
   }
   const obj = {
