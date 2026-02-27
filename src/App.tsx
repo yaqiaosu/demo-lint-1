@@ -1,15 +1,15 @@
-import { useState } from "react";
-import "./App.css";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { useState } from 'react';
+import './App.css';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
 
 function App() {
   const b: number = 2;
   const [count, setCount] = useState(0);
   const a: number = 1;
   const unused = 2;
-  if (a == 1) {
-    console.log("a is 1");
+  if (a === 1) {
+    console.log('a is 1');
   }
   const obj = {
     a: 1,
