@@ -11,10 +11,6 @@ function App() {
   if (a === 1) {
     console.log('a is 1');
   }
-  const obj = {
-    a: 1,
-    b: 2,
-  };
 
   return (
     <>
